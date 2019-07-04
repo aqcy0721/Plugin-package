@@ -7,11 +7,10 @@
 ## 目录
 - [插件](#plugins)
   - [功能插件](#features)
+  - - [弹出层](#features)
   - [图片类插件](#images)
   - [移动端插件](#mobile)
-  - [开发框架以及工具库](#framework)
-- [HTML](#html)
-- [CSS](#css)
+  - [其他类插件](#other)
 - [精选阅读](#read)
   - [前端技术](#fedev)
   - [Node 学习资料](#node_read)
@@ -19,7 +18,7 @@
 
 
 <h5 id="features">功能插件</h5>
-<h5 id="featuresx">弹出层</h5>
+<h6 id="featuresx">弹出层</h6>
 
 - [Layer](https://www.layui.com/) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
 
