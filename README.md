@@ -19,7 +19,7 @@
 
 
 <h5 id="featuresx">弹出层</h5>
-- [Layer](https://www.layui.com/) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
+- [PhotoSwipe](http://photoswipe.com/) - 偶常用的 js 库 官网上有这么一句很关键、重要"no dependencies"
 
 <h6 id="features">上拉加载，下拉刷新</h6>
 - [Mescroll](http://www.mescroll.com/) - 精致的下拉刷新和上拉加载js框架，原生js，不依赖jquery，zepto，支持vue，一套代码多端运行
