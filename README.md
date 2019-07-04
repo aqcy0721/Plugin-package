@@ -18,33 +18,44 @@
   - [其他技术](#otherdev)
 
 
+<h5 id="features">功能插件</h5>
 <h5 id="featuresx">弹出层</h5>
-- [PhotoSwipe](http://photoswipe.com/) - 偶常用的 js 库 官网上有这么一句很关键、重要"no dependencies"
+
+- [Layer](https://www.layui.com/) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
 
 <h6 id="features">上拉加载，下拉刷新</h6>
 - [Mescroll](http://www.mescroll.com/) - 精致的下拉刷新和上拉加载js框架，原生js，不依赖jquery，zepto，支持vue，一套代码多端运行
 <h6 id="features">上传</h6>
+
 - [jQuery File Upload](http://www.jq22.com/jquery-info230) - jQuery File Upload 是一个Jquery图片上传组件，支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
 - [imgUp](http://www.jq22.com/jquery-info13194) - jQuery多图上传插件imgUp.js
 <h6 id="features">轮播图</h6>
+
 - [Swiper](http://www.swiper.com.cn) - 强大的 Slider 库 其实这类效果库非常多，但文档能那么专业的就很少鸟
 <h6 id="features">表单验证</h6>
+
 - [Verify](http://www.jq22.com/jquery-info6134) - 一套完整的用户注册前端校验，包含用户名，密码强度，显示隐藏密码，手机号输入控制手机验证码，真实姓名，身份证号等验证。
 <h6 id="features">日期控件</h6>
+
 - [daterangepicker](http://www.daterangepicker.com) - 时间选择插件的不二选择，基于 ```Bootstrap``` 和 [Moment.js](http://momentjs.com/)
 - [jedate](http://www.jemui.com/uidoc/jedate.html) - 是一款原生JS开发的 不依赖任何第三方库 大众化的日期控件
 <h6 id="features">图表类插件</h6>
+
 - [ECharts](http://echarts.baidu.com/index.html) - 好用，最关键的是支持的图表展示非常之多，强烈推荐
 - [excellentexport](https://github.com/jmaister/excellentexport) - 纯前端的 Excel 导出，非常之方便
 <h6 id="features">拖拽类插件</h6>
+
 - [Sortable](https://github.com/RubaXa/Sortable) - 拖拽神器，用了就知道
 <h6 id="features">省市联动</h6>
 - [jquery.cityselect](https://github.com/akveo/blur-admin) - jQuery+JSON的省市三级、二级联动插件制订此文档。
 <h6 id="features">3D库</h6>
+
 - [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 库。超多的 [examples](http://threejs.org/examples/) 等着你去发现，你只需要关注内存和风扇就行了
 <h6 id="features">HTML生成图片</h6>
+
 - [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 看这两库的名称就明白是做什么的。使用场景就是“动态生成的HTML可以长按保存为图片”。
 <h6 id="features">懒加载</h6>
+
 - [jquery.lazyload](http://www.jq22.com/yanshi390) - jQuery图片延迟加载插件jQuery.lazyload,使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
 
 <h5 id="images">图片类插件</h5>
