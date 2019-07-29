@@ -274,15 +274,120 @@ function upCallback(page) {
 ```
 > 想了解更多，可以取[官方文档](http://www.mescroll.com/api.html?v=190725)找到
 
+### 上传
+
+### [jQuery File Upload](http://www.jq22.com/jquery-info230) - jQuery File Upload 是一个Jquery图片上传组件，支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
+
+> **快速入门**
+```javascript
+引入依赖库
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><!-- 基础库 -->
+<script src="js/vendor/jquery.ui.widget.js"></script><!-- 基于 iframe 文件上传的 jQuery Ajax 传输插件，通过隐藏的 iframe 来实现传输 -->
+<script src="js/jquery.iframe-transport.js"></script>
+<script src="js/jquery.fileupload.js"></script>
+
+$(function () {
+   $('#fileupload').fileupload({
+      dataType: 'json',
+      add: function (e, data) { //可以通过按钮点击事件来触发上传
+         data.context = $('<button/>').text('Upload')
+         .appendTo(document.body)
+         .click(function () {
+            $(this).replaceWith($('<p/>').text('Uploading...'));
+            data.submit();
+         });
+      },
+      done: function (e, data) {
+         $.each(data.result.files, function (index, file) {
+            $('<p/>').text(file.name).appendTo(document.body);
+         });
+      },
+      progressall: function (e, data) { //进度条
+         var progress = parseInt(data.loaded / data.total * 100, 10);
+         $('#progress .bar').css(
+           'width',
+            progress + '%'
+         );
+      }
+   });
+});
+```
+> 想了解更多，可以取[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
+
+### 上传
+
+### [zyupload](http://www.jq22.com/jquery-info14213) - PHP支持拖拽和裁剪的一款上传插件：zyupload。在js里面可以自定义高度和宽度，类型，远程上传地址等。
+
+> **快速入门**
+```javascript
+
+引入依赖库
+<script src="jQuery的路径"></script>
+<link rel="stylesheet" href="zyupload.css的路径" type="text/css">
+<script type="text/javascript" src="zyupload.js路径"></script>
+
+$("#zyupload").zyUpload({
+    width: "650px", // 宽度    
+    height: "400px", // 宽度     
+    itemWidth: "140px", // 文件项的宽度    
+    itemHeight: "115px", // 文件项的高度    
+    url: "./up.php", // 上传文件的路径    
+    fileType: ["jpg", "png", "txt", "js"], // 上传文件的类型    
+    fileSize: 51200000, // 上传文件的大小    
+    multiple: true, // 是否可以多个文件上传     
+    dragDrop: true, // 是否可以拖动上传文件    
+    tailor: true, // 是否可以裁剪图片     
+    del: true, // 是否可以删除文件     
+    finishDel: false, // 是否在上传文件完成后删除预览     
+    /* 外部获得的回调接口 */
+    onSelect: function(selectFiles, allFiles) { // 选择文件的回调方法  
+        selectFile: 当前选中的文件
+        allFiles: 还没上传的全部文件
+        console.info("当前选择了以下文件：");console.info(selectFiles);
+    },
+    onDelete: function(file, files) { // 删除一个文件的回调方法 file:当前删除的文件 
+        files: 删除之后的文件
+        console.info("当前删除了此文件：");
+        console.info(file.name);
+    },
+    onSuccess: function(file, response) { // 文件上传成功的回调方法     
+        console.info("此文件上传成功：");
+        console.info(file.name);
+        console.info("此文件上传到服务器地址：");
+        console.info(response);
+        $("#uploadInf").append("<p>上传成功，文件地址是：" + response + "</p>");
+    },
+    onFailure: function(file, response) { // 文件上传失败的回调方法        
+        console.info("此文件上传失败：");
+        console.info(file.name);
+    },
+    onComplete: function(response) { // 上传完成的回调方法        
+        console.info("文件上传完成");
+        console.info(response);
+    }
+});
+```
+
+> 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info14213)找到
 
 
 
 
 
-<h6 id="features">上传</h6>
 
-- [jQuery File Upload](http://www.jq22.com/jquery-info230) - jQuery File Upload 是一个Jquery图片上传组件，支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
-- [imgUp](http://www.jq22.com/jquery-info13194) - jQuery多图上传插件imgUp.js
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h6 id="features">轮播图</h6>
 
 - [Swiper](http://www.swiper.com.cn) - 强大的 Slider 库 其实这类效果库非常多，但文档能那么专业的就很少鸟
