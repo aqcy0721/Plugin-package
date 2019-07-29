@@ -32,32 +32,46 @@
 <h6 id="featuresx">弹出层</h6>
 
 - [Layer](http://layer.layui.com/?alone) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
-```css
-/* good */
-main > nav {
-    padding: 10px;
-}
-
-label + input {
-    margin-left: 5px;
-}
-
-input:checked ~ button {
-    background-color: #69C;
-}
-
-/* bad */
-main>nav {
-    padding: 10px;
-}
-
-label+input {
-    margin-left: 5px;
-}
-
-input:checked~button {
-    background-color: #69C;
-}
+> 快速上手
+```
+<script src="jQuery的路径"></script> <!-- 你必须先引入jQuery1.8或以上版本 -->
+<script src="layer.js的路径"></script>
+//弹出一个提示层
+  $('#test1').on('click', function(){
+    layer.msg('hello');
+  }); 
+//弹出一个页面层
+  $('#test2').on('click', function(){
+    layer.open({
+      type: 1,
+      area: ['600px', '360px'],
+      shadeClose: true, //点击遮罩关闭
+      content: '\<\div style="padding:20px;">自定义内容\<\/div>'
+    });
+  });
+//弹出一个iframe层
+  $('#parentIframe').on('click', function(){
+    layer.open({
+      type: 2,
+      title: 'iframe父子操作',
+      maxmin: true,
+      shadeClose: true, //点击遮罩关闭层
+      area : ['800px' , '520px'],
+      content: 'test/iframe.html'
+    });
+  });
+//弹出一个loading层
+  $('#test4').on('click', function(){
+    var ii = layer.load();
+    //此处用setTimeout演示ajax的回调
+    setTimeout(function(){
+      layer.close(ii);
+    }, 1000);
+  });
+//弹出一个tips层
+  $('#test5').on('click', function(){
+    layer.tips('Hello tips!', '#test5');
+  });
 ```
 
 <h6 id="features">上拉加载，下拉刷新</h6>
