@@ -36,11 +36,13 @@
 ```javascript
 <script src="jQuery的路径"></script> <!-- 你必须先引入jQuery1.8或以上版本 -->
 <script src="layer.js的路径"></script>
-//弹出一个提示层
+
+  //弹出一个提示层
   $('#test1').on('click', function(){
     layer.msg('hello');
   }); 
-//弹出一个页面层
+
+  //弹出一个页面层
   $('#test2').on('click', function(){
     layer.open({
       type: 1,
@@ -49,7 +51,8 @@
       content: '\<\div style="padding:20px;">自定义内容\<\/div>'
     });
   });
-//弹出一个iframe层
+
+  //弹出一个iframe层
   $('#parentIframe').on('click', function(){
     layer.open({
       type: 2,
@@ -60,7 +63,8 @@
       content: 'test/iframe.html'
     });
   });
-//弹出一个loading层
+
+  //弹出一个loading层
   $('#test4').on('click', function(){
     var ii = layer.load();
     //此处用setTimeout演示ajax的回调
@@ -68,7 +72,8 @@
       layer.close(ii);
     }, 1000);
   });
-//弹出一个tips层
+
+  //弹出一个tips层
   $('#test5').on('click', function(){
     layer.tips('Hello tips!', '#test5');
   });
