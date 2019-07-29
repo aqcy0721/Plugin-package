@@ -31,7 +31,34 @@
 <h5 id="features">功能插件</h5>
 <h6 id="featuresx">弹出层</h6>
 
-- [Layer](https://www.layui.com/) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
+- [Layer](http://layer.layui.com/?alone) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
+```css
+/* good */
+main > nav {
+    padding: 10px;
+}
+
+label + input {
+    margin-left: 5px;
+}
+
+input:checked ~ button {
+    background-color: #69C;
+}
+
+/* bad */
+main>nav {
+    padding: 10px;
+}
+
+label+input {
+    margin-left: 5px;
+}
+
+input:checked~button {
+    background-color: #69C;
+}
+```
 
 <h6 id="features">上拉加载，下拉刷新</h6>
 
