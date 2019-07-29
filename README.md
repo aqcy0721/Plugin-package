@@ -425,57 +425,405 @@ var mySwiper = new Swiper ('.swiper-container', {
 ```
 > 想了解更多，可以取[官方文档](https://www.swiper.com.cn/usage/index.html)找到
 
+## 表单验证
+
+### [myvali](http://www.jq22.com/jquery-info18673) - 基于jquery封装的表单验证插件
+
+> **快速入门**
+
+```javascript
+<script src="jQuery的路径"></script>
+<script type="text/javascript" src="myvali.js路径"></script>
+$.myvali({
+    myform: ".form2", //表单id
+    mybtn: ".btn", //提交表单按钮id 
+    myVali: ".vali", //input父盒子的class，可自定义类名
+    Required: ".Required", //验证必填选项，值为Required,input自己加class
+    RequiredTps: ["不能为空!!!"], //只验证不为空提示
+    Requireds: ".Requireds", //验证必填不同提示，值为Requireds,input自己加class
+    reqtps: ".reqtps", //验证不为空不同提示,input父盒子的class,可自定义类名
+    Reqlength: [
+        [2, 4]
+    ], //只验证不为空,设置最小长度和最大长度
+    ReqlengthTps: ["+不为空1"], //验证不为空长度提示
+    RequiredsTps: ["这是自定义提示1"], //默认提示
+    myNuber: ".nub", //数字验证
+    myNuberlength: [5, 10], //数字长度
+    myNameNuber: "QQ", //数字提示
+    chinese: ".chinese", //中文验证id
+    chinesetps: {
+        minLength: 2, //最小长度
+        maxLength: 4, //最大长度
+        tps: "姓名", //提示
+    },
+    myName: ".uersname", //用户名id或class
+    nameIsServer: true, //用户名是否要与数据库验证，true为是，默认false为否
+    nameIsServerUrl: ["1.php"], //用户名与数据库验证的路径。
+    nameIsServerType: "post", //用户名以什么方式提交
+    nameIsServerDType: "json", //用户名以什么格式提交
+    myPassword: ".pasw", //密码id或class
+    myPasswordMinLength: 6, //密码最小长度，不写默认长度6
+    myPasswordMaxLength: 16, //密码最大长度，不写默认长度16
+    myConfirmPassword: ".pasws", //确认密码id或class
+    myPhone: ".phone", //手机号id或class
+    phoneIsServer: true, //手机号是否与数据库验证，true为是，默认false为否
+    phoneIsServerUrl: ["1.php"], //手机号与数据库验证的路径
+    phoneIsServerType: "post", //以什么方式提交
+    phoneIsServerDType: "json", //以什么格式提交
+    isPhoneCode: true, //开启手机短信验证，true开启，默认false不开启(此项功能与myPhone配合验证)
+    phoneCodeBtn: ".codebtn", //发送手机验证码id或class（按钮）
+    count: 30, //发送短信验证码倒计时，默认60s（按钮）
+    codeBtnCol1: ["rgb(150, 150, 150)"], //短信验证码倒计时（按钮，通过验证前）颜色
+    codeBtnCol2: ["#333"], //短信验证码倒计时（按钮，通过验证后）颜色
+    isPhoneCodeUrl: ["1.php"], //发送手机验证码与数据库验证的路径（按钮）
+    isPhoneCodeType: "post", //以什么方式提交（按钮）
+    isPhoneCodeDType: "json", //以什么格式提交（按钮）
+    myPhone1: "#v", //修改手机号(原手机号用这个验证)id或class
+    phoneIsServer1: false, //手机号是否与数据库验证，true为是，默认false为否
+    phoneIsServerUrl1: ["1.php"], //手机号与数据库验证的路径
+    phoneIsServerType1: "post", //以什么方式提交
+    phoneIsServerDType1: "json", //以什么格式提交
+    phoneCodeInput: ".phcode", //短信验证码id或class（输入框）
+    phoneCodeInputUrl: ["1.php"], //短信验证码与数据库验证的路径（输入框）
+    phoneCodeInputType: "post", //以什么方式提交（输入框）
+    phoneCodeInputDType: "json", //以什么格式提交（输入框）
+    myMailbox: ".eal", //邮箱id或class
+    mailboxIsServer: false, //邮箱是否要与数据库验证，默认false为否
+    mailboxIsServerUrl: ["1.php"], //邮箱与数据库验证的路径
+    mailboxIsServerType: "post", //以什么方式提交
+    mailboxIsServerDType: "json", //以什么格式提交
+    myCard: ".cid", //身份证验证id或class
+    myCode: "#v", //验证码id或class
+    CodeIsServerUrl: ["1.php"], //验证码与数据库验证的路径
+    CodeIsServerType: "post", //以什么方式提交
+    CodeIsServerDType: "json", //以什么格式提交
+    PwdStrong: true, //密码强度验证，默认false不开启，true开启
+    isStrongTps: ["弱", "中", "强"], //密码强度提示，可自定义提示
+    myNameMinLength: 3, //用户名最小长度，不写默认长度3
+    myNameMaxLength: 12, //用户名最大长度，不写默认长度12
+    myNameMinLength2: 3, //昵称最小长度，不写默认长度3
+    myNameMaxLength2: 12, //昵称最大长度，不写默认长度12
+    corrCol: "#4E7504", //设置正确提示文字的颜色，不设置默认绿色
+    errCol: "red", //设置错误提示文字的颜色，不设置默认红色
+})  
+```
+> 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info18673)找到
+
+## 日期控件
+
+### [jedate](http://www.jemui.com/uidoc/jedate.html) - 基于jquery封装的表单验证插件
+
+> **快速入门**
+
+```javascript
+引入js与css
+<link type="text/css" rel="stylesheet" href="skin/jedate.css">
+<script type="text/javascript" src="src/jedate.js"></script>
+
+//DOM设置
+<input type="text" class="jeinput" id="starttime">
+//初始化
+jeDate("#starttime",{
+    festival:true,
+    minDate:"1900-01-01",              //最小日期
+    maxDate:"2099-12-31",              //最大日期
+    method:{
+        choose:function (params) {
+            
+        }
+    },
+    format: "YYYY-MM-DD hh:mm:ss"
+});  
+
+```
+> 想了解更多，可以取[官方文档](http://www.jemui.com/uidoc/jedate.html)找到
+
+## 图表类插件
+
+### [ECharts](http://echarts.baidu.com/index.html) - 好用，最关键的是支持的图表展示非常之多，强烈推荐
+
+> **快速入门**
+
+```javascript
+引入js与css
+<script src="echarts.min.js"></script>
+
+//为 ECharts 准备一个具备大小（宽高）的 DOM
+<div id="main" style="width: 600px;height:400px;"></div>
+
+// 基于准备好的dom，初始化echarts实例
+var myChart = echarts.init(document.getElementById('main'));
+
+// 指定图表的配置项和数据
+var option = {
+    title: {
+        text: 'ECharts 入门示例'
+    },
+    tooltip: {},
+    legend: {
+        data:['销量']
+    },
+    xAxis: {
+        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+    },
+    yAxis: {},
+    series: [{
+        name: '销量',
+        type: 'bar',
+        data: [5, 20, 36, 10, 10, 20]
+    }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+myChart.setOption(option);
+});  
+
+```
+> 想了解更多，可以取[官方文档](https://www.echartsjs.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts)找到
+
+## 拖拽类插件
+
+### [Sortable](https://github.com/RubaXa/Sortable) - 拖拽神器
+
+> **快速入门**
+
+```javascript
+npm下载
+$ npm install sortablejs --save
+
+引入js
+import Sortable from 'sortablejs';
+
+<ul id="items">
+	<li>item 1</li>
+	<li>item 2</li>
+	<li>item 3</li>
+</ul>
+
+var el = document.getElementById('items');
+var sortable = Sortable.create(el);
+
+// 基本配置
+var sortable = new Sortable(el, {
+	group: "name",  // or { name: "...", pull: [true, false, 'clone', array], put: [true, false, array] }
+	sort: true,  // sorting inside list
+	delay: 0, // time in milliseconds to define when the sorting should start
+	delayOnTouchOnly: false, // only delay if user is using touch
+	touchStartThreshold: 0, // px, how many pixels the point should move before cancelling a delayed drag event
+	disabled: false, // Disables the sortable if set to true.
+	store: null,  // @see Store
+	animation: 150,  // ms, animation speed moving items when sorting, `0` — without animation
+	easing: "cubic-bezier(1, 0, 0, 1)", // Easing for animation. Defaults to null. See https://easings.net/ for examples.
+	handle: ".my-handle",  // Drag handle selector within list items
+	filter: ".ignore-elements",  // Selectors that do not lead to dragging (String or Function)
+	preventOnFilter: true, // Call `event.preventDefault()` when triggered `filter`
+	draggable: ".item",  // Specifies which items inside the element should be draggable
+
+	dataIdAttr: 'data-id',
+
+	ghostClass: "sortable-ghost",  // Class name for the drop placeholder
+	chosenClass: "sortable-chosen",  // Class name for the chosen item
+	dragClass: "sortable-drag",  // Class name for the dragging item
+
+	swapThreshold: 1, // Threshold of the swap zone
+	invertSwap: false, // Will always use inverted swap zone if set to true
+	invertedSwapThreshold: 1, // Threshold of the inverted swap zone (will be set to swapThreshold value by default)
+	direction: 'horizontal', // Direction of Sortable (will be detected automatically if not given)
+
+	forceFallback: false,  // ignore the HTML5 DnD behaviour and force the fallback to kick in
+
+	fallbackClass: "sortable-fallback",  // Class name for the cloned DOM Element when using forceFallback
+	fallbackOnBody: false,  // Appends the cloned DOM Element into the Document's Body
+	fallbackTolerance: 0, // Specify in pixels how far the mouse should move before it's considered as a drag.
+
+	dragoverBubble: false,
+	removeCloneOnHide: true, // Remove the clone element when it is not showing, rather than just hiding it
+	emptyInsertThreshold: 5, // px, distance mouse must be from empty sortable to insert drag element into it
 
 
+	setData: function (/** DataTransfer */dataTransfer, /** HTMLElement*/dragEl) {
+		
+	},
+
+	// Element is chosen
+	onChoose: function (/**Event*/evt) {
+		
+	},
+
+	// Element is unchosen
+	onUnchoose: function(/**Event*/evt) {
+		
+	},
 
 
+	onStart: function (/**Event*/evt) {
+		
+	},
 
+	// Element dragging ended
+	onEnd: function (/**Event*/evt) {
+		
+	},
 
+	// Element is dropped into the list from another list
+	onAdd: function (/**Event*/evt) {
+		
+	},
 
+	// Changed sorting within list
+	onUpdate: function (/**Event*/evt) {
+		
+	},
 
+	// Called by any change to the list (add / update / remove)
+	onSort: function (/**Event*/evt) {
+		
+	},
 
+	// Element is removed from the list into another list
+	onRemove: function (/**Event*/evt) {
+		
+	},
 
+	// Attempt to drag a filtered element
+	onFilter: function (/**Event*/evt) {
+		
+	},
 
+	// Event when you move an item in the list or between lists
+	onMove: function (/**Event*/evt, /**Event*/originalEvent) {
+		
+	},
 
+	// Called when creating a clone of element
+	onClone: function (/**Event*/evt) {
+		
+	},
 
+	// Called when dragging element changes position
+	onChange: function(/**Event*/evt) {
+		
+	}
+});
 
+```
+> 想了解更多，可以取[官方文档](https://github.com/SortableJS/Sortable)找到
 
+## 省市联动
 
+### [jquery.cityselect](http://www.jq22.com/yanshi16052) - jQuery+JSON的省市三级、二级联动插件
 
-<h6 id="features">轮播图</h6>
+> **快速入门**
 
-- [Swiper](http://www.swiper.com.cn) - 强大的 Slider 库 其实这类效果库非常多，但文档能那么专业的就很少鸟
-<h6 id="features">表单验证</h6>
+```javascript
+引入js
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/jquery.cityselect.js"></script>
 
-- [Verify](http://www.jq22.com/jquery-info6134) - 一套完整的用户注册前端校验，包含用户名，密码强度，显示隐藏密码，手机号输入控制手机验证码，真实姓名，身份证号等验证。
-<h6 id="features">日期控件</h6>
+<div id="city_1">
+	<select class="prov"></select>
+	<select class="city" disabled="disabled"></select>
+</div>
 
-- [daterangepicker](http://www.daterangepicker.com) - 时间选择插件的不二选择，基于 ```Bootstrap``` 和 [Moment.js](http://momentjs.com/)
-- [jedate](http://www.jemui.com/uidoc/jedate.html) - 是一款原生JS开发的 不依赖任何第三方库 大众化的日期控件
-<h6 id="features">图表类插件</h6>
+// 基于准备好的dom，初始化echarts实例
+$("#city_1").citySelect({nodata:"none",required:false}); 
+```
+> 想了解更多，可以取[官方文档](http://www.jq22.com/yanshi16052)找到
 
-- [ECharts](http://echarts.baidu.com/index.html) - 好用，最关键的是支持的图表展示非常之多，强烈推荐
-- [excellentexport](https://github.com/jmaister/excellentexport) - 纯前端的 Excel 导出，非常之方便
-<h6 id="features">拖拽类插件</h6>
+## 3D库
 
-- [Sortable](https://github.com/RubaXa/Sortable) - 拖拽神器，用了就知道
-<h6 id="features">省市联动</h6>
+### [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 库
 
-- [jquery.cityselect](https://github.com/akveo/blur-admin) - jQuery+JSON的省市三级、二级联动插件制订此文档。
-<h6 id="features">3D库</h6>
+> **快速入门**
 
-- [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 库。超多的 [examples](http://threejs.org/examples/) 等着你去发现，你只需要关注内存和风扇就行了
-<h6 id="features">HTML生成图片</h6>
+```javascript
+引入js
+<script src="js/three.min.js"></script>
 
-- [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 看这两库的名称就明白是做什么的。使用场景就是“动态生成的HTML可以长按保存为图片”。
-<h6 id="features">懒加载</h6>
+var camera, scene, renderer;
+var geometry, material, mesh;
 
-- [jquery.lazyload](http://www.jq22.com/yanshi390) - jQuery图片延迟加载插件jQuery.lazyload,使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
+init();
+animate();
 
-<h5 id="images">图片类插件</h5>
+function init() {
 
-- [PhotoSwipe](http://photoswipe.com/) - 偶常用的 js 库 官网上有这么一句很关键、重要"no dependencies"
-> ___```Swiper/PhotoSwipe/fullPage``` 有这仨库，微信里常见的 H5 页完全不是问题哒___
+	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
+	camera.position.z = 1;
+
+	scene = new THREE.Scene();
+
+	geometry = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );
+	material = new THREE.MeshNormalMaterial();
+
+	mesh = new THREE.Mesh( geometry, material );
+	scene.add( mesh );
+
+	renderer = new THREE.WebGLRenderer( { antialias: true } );
+	renderer.setSize( window.innerWidth, window.innerHeight );
+	document.body.appendChild( renderer.domElement );
+
+}
+
+function animate() {
+
+	requestAnimationFrame( animate );
+
+	mesh.rotation.x += 0.01;
+	mesh.rotation.y += 0.02;
+
+	renderer.render( scene, camera );
+
+}
+```
+> 想了解更多，可以取[官方文档](https://github.com/mrdoob/three.js)找到
+
+## HTML生成图片
+
+### [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 看这两库的名称就明白是做什么的。使用场景就是“动态生成的HTML可以长按保存为图片”。
+
+> **快速入门**
+
+```javascript
+引入js
+<script src="http://www.jq22.com/jquery/jquery-1.7.2.js"></script>
+<script src="http://img.chaicp.com/img/html2canvas.min.js"></script>
+
+<div id="wrap">
+	...
+</div>
+
+html2canvas($("#wrap"), {
+ 	useCORS: true,
+     onrendered: function (canvas) {
+         var url = canvas.toDataURL();
+          //以下代码为下载此图片功能
+         var triggerDownload = $("<a>").attr("href", url).attr("download", "xxx.png").appendTo("body");
+       },
+       background: "#000"
+});
+```
+> 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
+
+## 懒加载
+
+### [jquery.lazyload](http://www.jq22.com/yanshi390) - jQuery图片延迟加载插件jQuery.lazyload,使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
+
+> **快速入门**
+
+```javascript
+引入js
+<script src="jquery-1.11.0.min.js"></script>
+<script src="jquery.lazyload.js?v=1.9.1"></script>
+
+<img class="lazy" data-original="img/bmw_m1_hood.jpg">
+
+$(function() {
+   $("img.lazy").lazyload({effect: "fadeIn"});
+});
+```
+> 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
+
 <h5 id="mobile">移动端插件</h5>
 
 - [adaptive.js](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
