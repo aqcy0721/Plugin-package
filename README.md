@@ -28,10 +28,9 @@
   - [其他技术](#otherdev)
 
 
-<h1 id="features">功能插件</h1>
-<h2 id="featuresx">弹出层</h2>
-###[layer](http://layer.layui.com/?alone) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。 ###
-
+##功能插件
+###弹出层
+####[layer](http://layer.layui.com/?alone) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
 
 ```javascript
 //获得 layer 文件包后，解压并将 layer 整个文件夹（不要拆分结构） 存放到你项目的任意目录，使用时，只需引入 layer.js 即可。 
