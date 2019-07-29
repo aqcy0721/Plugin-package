@@ -32,7 +32,7 @@
 
 ### 弹出层
 
-#### [layer](http://layer.layui.com/?alone) - 适用于PC端
+### [layer](http://layer.layui.com/?alone) - 适用于PC端
 
 > **快速入门**
 ```javascript
@@ -83,13 +83,76 @@ $('#test5').on('click', function(){
 ```
 > 想了解更多，可以取[官方文档](http://layer.layui.com/)找到
 
-#### [Layer For Mobile](http://layer.layui.com/mobile/) - 适用于移动端
+### [Layer For Mobile](http://layer.layui.com/mobile/) - 适用于移动端
 
 > **快速入门**
 ```javascript
 <script src="layer-mobile.js的路径"></script> <!-- 此库不依赖第三方库，移动版和PC版不能同时存在同一页面 -->
 
-
+//信息框
+  layer.open({
+    content: '移动版和PC版不能同时存在同一页面'
+    ,btn: '我知道了'
+  });
+  
+  //提示
+  layer.open({
+    content: 'hello layer'
+    ,skin: 'msg'
+    ,time: 2 //2秒后自动关闭
+  });
+  
+  //询问框
+  layer.open({
+    content: '您确定要刷新一下本页面吗？'
+    ,btn: ['刷新', '不要']
+    ,yes: function(index){
+      location.reload();
+      layer.close(index);
+    }
+  });
+  
+  //底部对话框
+  layer.open({
+    content: '这是一个底部弹出的询问提示'
+    ,btn: ['删除', '取消']
+    ,skin: 'footer'
+    ,yes: function(index){
+      layer.open({content: '执行删除操作'})
+    }
+  });
+  
+  //底部提示
+  layer.open({
+    content: '一个没有任何按钮的底部提示'
+    ,skin: 'footer'
+  });
+  
+  //自定义标题风格
+  layer.open({
+    title: [
+      '我是标题',
+      'background-color: #FF4351; color:#fff;'
+    ]
+    ,content: '标题风格任你定义。'
+  });
+  
+  //页面层
+  layer.open({
+    type: 1
+    ,content: '可传入任何内容，支持html。一般用于手机页面中'
+    ,anim: 'up'
+    ,style: 'position:fixed; bottom:0; left:0; width: 100%; height: 200px; padding:10px 0; border:none;'
+  });
+  
+  //loading层
+  layer.open({type: 2});
+  
+  //loading带文字
+  layer.open({
+    type: 2
+    ,content: '加载中'
+  });
 ```
 
 
