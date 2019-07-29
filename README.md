@@ -32,7 +32,7 @@
 
 ### 弹出层
 
-#### [layer](http://layer.layui.com/?alone) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
+#### [layer](http://layer.layui.com/?alone) - 适用于PC端
 
 > **快速入门**
 ```javascript
@@ -81,6 +81,17 @@ $('#test5').on('click', function(){
    layer.tips('Hello tips!', '#test5');
 });
 ```
+> 想了解更多，可以取[官方文档](http://layer.layui.com/)找到
+
+#### [Layer For Mobile](http://layer.layui.com/mobile/) - 适用于移动端
+
+> **快速入门**
+```javascript
+<script src="layer-mobile.js的路径"></script> <!-- 此库不依赖第三方库，移动版和PC版不能同时存在同一页面 -->
+
+
+```
+
 
 <h6 id="features">上拉加载，下拉刷新</h6>
 
