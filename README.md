@@ -32,8 +32,8 @@
 <h6 id="featuresx">弹出层</h6>
 
 - [Layer](http://layer.layui.com/?alone) - layer是一款近年来备受青睐的web弹层组件，她具备全方位的解决方案，致力于服务各水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
-> 快速上手
-```
+> **快速上手**
+```javascript
 <script src="jQuery的路径"></script> <!-- 你必须先引入jQuery1.8或以上版本 -->
 <script src="layer.js的路径"></script>
 //弹出一个提示层
