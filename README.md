@@ -314,8 +314,6 @@ $(function () {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
 
-### 上传
-
 ### [zyupload](http://www.jq22.com/jquery-info14213) - PHP支持拖拽和裁剪的一款上传插件：zyupload。在js里面可以自定义高度和宽度，类型，远程上传地址等。
 
 > **快速入门**
@@ -367,9 +365,65 @@ $("#zyupload").zyUpload({
     }
 });
 ```
-
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info14213)找到
 
+## 轮播图
+
+### [Swiper](https://www.swiper.com.cn/) - 纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端，版本：4.0
+
+> **快速入门**
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+   ...引入js与css
+   <link rel="stylesheet" href="dist/css/swiper.min.css">
+   <script src="dist/js/swiper.min.js"></script>
+</head>
+<body>
+   <div class="swiper-container">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide">Slide 1</div>
+         <div class="swiper-slide">Slide 2</div>
+         <div class="swiper-slide">Slide 3</div>
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- 如果需要导航按钮 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- 如果需要滚动条 -->
+      <div class="swiper-scrollbar"></div>
+   </div>
+   导航等组件可以放在container之外
+</body>
+</html>
+```
+```javascript
+var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })    
+```
+> 想了解更多，可以取[官方文档](https://www.swiper.com.cn/usage/index.html)找到
 
 
 
