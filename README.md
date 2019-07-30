@@ -276,7 +276,7 @@ function upCallback(page) {
 
 ### 上传
 
-### [jQuery File Upload](http://www.jq22.com/jquery-info230) - jQuery File Upload 是一个Jquery图片上传组件，支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
+### [jQuery File Upload](http://www.jq22.com/jquery-info230) -支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
 
 > **快速入门**
 ```javascript
@@ -522,6 +522,7 @@ $.myvali({
 
 //DOM设置
 <input type="text" class="jeinput" id="starttime">
+
 //初始化
 jeDate("#starttime",{
     festival:true,
@@ -540,7 +541,7 @@ jeDate("#starttime",{
 
 ## 图表类插件
 
-### [ECharts](http://echarts.baidu.com/index.html) - 好用，最关键的是支持的图表展示非常之多，强烈推荐
+### [ECharts](http://echarts.baidu.com/index.html) - 支持的图表展示非常之多
 
 > **快速入门**
 
@@ -780,7 +781,7 @@ function animate() {
 
 ## HTML生成图片
 
-### [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 看这两库的名称就明白是做什么的。使用场景就是“动态生成的HTML可以长按保存为图片”。
+### [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 使用场景就是“动态生成的HTML可以长按保存为图片”。
 
 > **快速入门**
 
@@ -807,7 +808,7 @@ html2canvas($("#wrap"), {
 
 ## 懒加载
 
-### [jquery.lazyload](http://www.jq22.com/yanshi390) - jQuery图片延迟加载插件jQuery.lazyload,使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
+### [jquery.lazyload](http://www.jq22.com/yanshi390) - 使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
 
 > **快速入门**
 
@@ -824,19 +825,181 @@ $(function() {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
 
-<h5 id="mobile">移动端插件</h5>
+## 移动端插件
 
-- [adaptive.js](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
-- [FlipClock](http://www.flipclockjs.com/) - FlipClock.js 是一个制作精美时钟，定时器和倒计时的 jQuery 插件，并且可以完全通过 CSS 进行定制。有设置为自动启动，存在多种方法控制（启动，停止，getTime，setTime..），支持回调函数，此外，它还有一个全功能的API，能够进一步扩展功能。
-- [iosSelect](http://zhoushengfe.com/iosselect/website/index.html) - 仿IOS端选择器插件，支持日期、地区等
-- [移动端滑动插件better-scroll](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#better-scroll) - better-scroll 是一款重点解决移动端（已支持 PC）各种滚动场景需求的插件。better-scroll 是基于原生 JS 实现的，不依赖任何框架。它编译后的代码大小是 63kb，压缩后是 35kb，gzip 后仅有 9kb，是一款非常轻量的 JS lib。
-- [fastclick](https://majing.io/posts/10000007721218) - 移动设备上的浏览器默认会在用户点击屏幕大约延迟300毫秒后才会触发点击事件，这是为了检查用户是否在做双击。为了能够立即响应用户的点击事件，才有了FastClick。
-<h5 id="mobile">其他类插件</h5>
+### [adaptive.j](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
 
-- [onepage-scroll](https://github.com/peachananr/onepage-scroll) - 依赖 jQuery 的单页滚动库，和 [fullPage](http://alvarotrigo.com/fullPage/) 类似
-- [videojs](http://videojs.com/) - 当下视频需求都用上```<video>```鸟 样式和交互统一的问题交给 videojs 搞定:)
-- [clipboard](http://zenorocha.github.io/clipboard.js/) - 仅 2KB 大小，搞定剪贴板功能，屌不屌~ 但是，Safari 不支持...
+> **快速入门**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>template</title>
+    <script src="adaptive.min.js"></script>
+    <style>
+        .wrap{
+            position: relative;
+            width: 10rem;
+            margin:0 auto;
+        }
+    </style>
+    </head>
+<body>
+<div class="wrap">
 
+</div>
+</body>
+</html>
+```
+> 想了解更多，可以取[官方文档](https://github.com/Vibing/adaptive)找到
+
+### [FlipClock](http://www.flipclockjs.com/) - FlipClock.js 是一个制作精美时钟，定时器和倒计时的 jQuery 插件，并且可以完全通过 CSS 进行定制。有设置为自动启动，存在多种方法控制（启动，停止，getTime，setTime..），支持回调函数，此外，它还有一个全功能的API，能够进一步扩展功能。
+
+> **快速入门**
+```html
+<html>
+	<head>
+		<link rel="stylesheet" href="/assets/css/flipclock.css">
+	</head>
+	<body>
+		<div class="your-clock"></div>
+		
+		<script src="/assets/js/libs/jquery.js"></script>
+		<script src="/assets/js/flipclock/flipclock.min.js"></script>
+	</body>
+</html>
+```
+```javascript
+var clock = $('.your-clock').FlipClock({
+// ... your options here
+});
+var clock = new FlipClock($('.your-clock'), {
+// ... your options here
+});
+```
+> 想了解更多，可以取[官方文档](http://www.flipclockjs.com/)找到
+
+### [iosSelect](http://www.flipclockjs.com/) - 仿IOS端选择器插件，支持日期、地区等
+
+> **快速入门**
+```javascript
+<link rel="stylesheet" href="/static/css/iosSelect.css">
+<script type="text/javascript" src="/static/js/iosSelect.js"></script>
+
+var showDom = document.querySelector('#showDom');// 绑定一个触发元素
+var valDom = document.querySelector('#valDom');  // 绑定一个存储结果的元素
+showDom.addEventListener('click', function () {  // 添加监听事件
+    var val = showDom.dataset['id'];             // 获取元素的data-id属性值
+    var title = showDom.dataset['value'];        // 获取元素的data-value属性值
+  // 实例化组件
+    var example = new IosSelect(1,               // 第一个参数为级联层级，演示为1
+        [[{'id': '10001', 'value': '演示数据1'},{'id': '10002', 'value': '演示数据2'}]],                             // 演示数据
+        {
+            container: '.container',             // 容器class
+            title: '演示标题',                    // 标题
+            itemHeight: 50,                      // 每个元素的高度
+            itemShowCount: 3,                    // 每一列显示元素个数，超出将隐藏
+            oneLevelId: val,                     // 第一级默认值
+            callback: function (selectOneObj) {  // 用户确认选择后的回调函数
+                valDom.value = selectOneObj.id;
+                showDom.innerHTML = selectOneObj.value;
+                showDom.dataset['id'] = selectOneObj.id;
+                showDom.dataset['value'] = selectOneObj.value;
+            }
+    });
+});
+```
+> 想了解更多，可以取[官方文档](http://zhoushengfe.com/iosselect/website/index.html)找到
+
+### [better-scroll](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#better-scroll) - better-scroll 是一款重点解决移动端（已支持 PC）各种滚动场景需求的插件。better-scroll 是基于原生 JS 实现的，不依赖任何框架。它编译后的代码大小是 63kb，压缩后是 35kb，gzip 后仅有 9kb，是一款非常轻量的 JS lib。
+
+> **快速入门**
+```html
+<div class="wrapper">
+  <ul class="content">
+    <li>...</li>
+    <li>...</li>
+    ...
+  </ul>
+  <!-- 这里可以放一些其它的 DOM，但不会影响滚动 -->
+</div>
+```
+```javascript
+import BScroll from 'better-scroll'
+let wrapper = document.querySelector('.wrapper')
+let scroll = new BScroll(wrapper)
+```
+> 想了解更多，可以取[官方文档](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#%E8%B5%B7%E6%AD%A5)找到
+
+### [fastclick](https://majing.io/posts/10000007721218) - better-scroll 是一款重点解决移动端（已支持 PC）各种滚动场景需求的插件。better-scroll 是基于原生 JS 实现的，不依赖任何框架。它编译后的代码大小是 63kb，压缩后是 35kb，gzip 后仅有 9kb，是一款非常轻量的 JS lib。
+
+> **快速入门**
+```javascript
+//纯Javascript版
+<script type='application/javascript' src='/path/to/fastclick.js'></script>
+document.addEventListener('DOMContentLoaded', function() {
+		FastClick.attach(document.body);
+	}, false);
+```
+```javascript
+//Common JS的模块系统方式
+npm install fastclick
+var attachFastClick = require('fastclick');
+attachFastClick(document.body);
+```
+> 想了解更多，可以取[官方文档](https://majing.io/posts/10000007721218)找到
+
+## 其他类插件
+
+### [onepage-scroll](https://github.com/peachananr/onepage-scroll) - 依赖 jQuery 的单页滚动库，和 [fullPage](http://alvarotrigo.com/fullPage/) 类似
+
+> **快速入门**
+```html
+<body>
+  ...
+  <div class="main">
+    <section>...</section>
+    <section>...</section>
+    ...
+  </div>
+  ...
+</body>
+```
+```javascript
+$(".main").onepage_scroll({
+   sectionContainer: "section",
+   easing: "ease",
+   animationTime: 1000,
+   pagination: true,
+   updateURL: false,
+   beforeMove: function(index) {},
+   afterMove: function(index) {},
+   loop: false, 
+   keyboard: true,
+   responsiveFallback: false,
+   direction: "vertical"
+});
+```
+> 想了解更多，可以取[官方文档](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)找到
+
+### [clipboard](https://clipboardjs.com/) - 仅 2KB 大小，搞定剪贴板功能,但是，Safari 不支持...
+
+> **快速入门**
+```html
+<!-- Target -->
+<input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+
+<!-- Trigger -->
+<button class="btn" data-clipboard-target="#foo">
+    <img src="assets/clippy.svg" alt="Copy to clipboard">
+</button>
+```
+![兼容性](https://i.imgur.com/R3wDWUz.jpg)
+> 想了解更多，可以取[官方文档](https://clipboardjs.com/)找到
 
 <h2 id="read">精选阅读</h2>
 
