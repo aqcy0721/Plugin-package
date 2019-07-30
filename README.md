@@ -30,7 +30,7 @@
 
 功能插件
 ----------
-<h3><table><tr><td bgcolor=#FF00FF>弹出层</td></tr></table></h3>
+### 弹出层
 
 #### [layer](http://layer.layui.com/?alone) - 适用于PC端
 
