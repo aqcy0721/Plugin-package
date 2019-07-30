@@ -28,7 +28,7 @@
   - [其他技术](#otherdev)
 
 
-<h1 id="features">功能插件</h1>
+<h2 id="features">功能插件</h2>
 
 ----------
 
