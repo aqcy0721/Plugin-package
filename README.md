@@ -28,7 +28,7 @@
   - [其他技术](#otherdev)
 
 
-#功能插件
+功能插件
 ----------
 ### 弹出层
 
@@ -825,7 +825,8 @@ $(function() {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
 
-# 移动端插件
+移动端插件
+----------
 
 ### [adaptive.js](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
 
@@ -953,7 +954,8 @@ attachFastClick(document.body);
 ```
 > 想了解更多，可以取[官方文档](https://majing.io/posts/10000007721218)找到
 
-# 其他类插件
+其他类插件
+----------
 
 ### [onepage-scroll](https://github.com/peachananr/onepage-scroll) - 依赖 jQuery 的单页滚动库，和 [fullPage](http://alvarotrigo.com/fullPage/) 类似
 
