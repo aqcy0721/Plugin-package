@@ -83,6 +83,8 @@ $('#test5').on('click', function(){
 ```
 > 想了解更多，可以取[官方文档](http://layer.layui.com/)找到
 
+----------
+
 #### [Layer For Mobile](http://layer.layui.com/mobile/) - 适用于移动端
 
 > **快速入门**
@@ -155,6 +157,8 @@ layer.open({
 });
 ```
 > 想了解更多，可以取[官方文档](http://layer.layui.com/mobile/api.html)找到
+
+----------
 
 ### 上拉加载，下拉刷新
 
@@ -274,6 +278,8 @@ function upCallback(page) {
 ```
 > 想了解更多，可以取[官方文档](http://www.mescroll.com/api.html?v=190725)找到
 
+----------
+
 ### 上传
 
 #### [jQuery File Upload](http://www.jq22.com/jquery-info230) -支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
@@ -313,6 +319,8 @@ $(function () {
 });
 ```
 > 想了解更多，可以取[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
+
+----------
 
 #### [zyupload](http://www.jq22.com/jquery-info14213) - PHP支持拖拽和裁剪的一款上传插件：zyupload。在js里面可以自定义高度和宽度，类型，远程上传地址等。
 
@@ -366,6 +374,8 @@ $("#zyupload").zyUpload({
 });
 ```
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info14213)找到
+
+----------
 
 ### 轮播图
 
@@ -424,6 +434,8 @@ var mySwiper = new Swiper ('.swiper-container', {
   })    
 ```
 > 想了解更多，可以取[官方文档](https://www.swiper.com.cn/usage/index.html)找到
+
+----------
 
 ### 表单验证
 
@@ -509,6 +521,8 @@ $.myvali({
 ```
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info18673)找到
 
+----------
+
 ### 日期控件
 
 #### [jedate](http://www.jemui.com/uidoc/jedate.html) - 基于jquery封装的表单验证插件
@@ -538,6 +552,8 @@ jeDate("#starttime",{
 
 ```
 > 想了解更多，可以取[官方文档](http://www.jemui.com/uidoc/jedate.html)找到
+
+----------
 
 ### 图表类插件
 
@@ -581,6 +597,8 @@ myChart.setOption(option);
 
 ```
 > 想了解更多，可以取[官方文档](https://www.echartsjs.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts)找到
+
+----------
 
 ### 拖拽类插件
 
@@ -710,6 +728,8 @@ var sortable = new Sortable(el, {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/SortableJS/Sortable)找到
 
+----------
+
 ### 省市联动
 
 #### [jquery.cityselect](http://www.jq22.com/yanshi16052) - jQuery+JSON的省市三级、二级联动插件
@@ -730,6 +750,8 @@ var sortable = new Sortable(el, {
 $("#city_1").citySelect({nodata:"none",required:false}); 
 ```
 > 想了解更多，可以取[官方文档](http://www.jq22.com/yanshi16052)找到
+
+----------
 
 ### 3D库
 
@@ -777,7 +799,9 @@ function animate() {
 
 }
 ```
-> 想了解更多，可以取[官方文档](https://github.com/mrdoob/three.js)找到
+> 想了解更多，可以取[官方文档](https://github.com/mrdoob/three.js)找到+
+
+----------
 
 ### HTML生成图片
 
@@ -806,6 +830,8 @@ html2canvas($("#wrap"), {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
 
+----------
+
 ### 懒加载
 
 #### [jquery.lazyload](http://www.jq22.com/yanshi390) - 使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
@@ -824,6 +850,8 @@ $(function() {
 });
 ```
 > 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
+
+----------
 
 移动端插件
 ----------
@@ -858,6 +886,8 @@ $(function() {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/Vibing/adaptive)找到
 
+----------
+
 ### [FlipClock](http://www.flipclockjs.com/) - FlipClock.js 是一个制作精美时钟，定时器和倒计时的 jQuery 插件，并且可以完全通过 CSS 进行定制。有设置为自动启动，存在多种方法控制（启动，停止，getTime，setTime..），支持回调函数，此外，它还有一个全功能的API，能够进一步扩展功能。
 
 > **快速入门**
@@ -883,6 +913,8 @@ var clock = new FlipClock($('.your-clock'), {
 });
 ```
 > 想了解更多，可以取[官方文档](http://www.flipclockjs.com/)找到
+
+----------
 
 ### [iosSelect](http://www.flipclockjs.com/) - 仿IOS端选择器插件，支持日期、地区等
 
@@ -916,6 +948,8 @@ showDom.addEventListener('click', function () {  // 添加监听事件
 ```
 > 想了解更多，可以取[官方文档](http://zhoushengfe.com/iosselect/website/index.html)找到
 
+----------
+
 ### [better-scroll](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#better-scroll) - better-scroll 是一款重点解决移动端（已支持 PC）各种滚动场景需求的插件。better-scroll 是基于原生 JS 实现的，不依赖任何框架。它编译后的代码大小是 63kb，压缩后是 35kb，gzip 后仅有 9kb，是一款非常轻量的 JS lib。
 
 > **快速入门**
@@ -936,6 +970,8 @@ let scroll = new BScroll(wrapper)
 ```
 > 想了解更多，可以取[官方文档](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#%E8%B5%B7%E6%AD%A5)找到
 
+----------
+
 ### [fastclick](https://majing.io/posts/10000007721218) - 移动设备上的浏览器默认会在用户点击屏幕大约延迟300毫秒后才会触发点击事件，这是为了检查用户是否在做双击。为了能够立即响应用户的点击事件，才有了FastClick。
 
 > **快速入门**
@@ -953,6 +989,8 @@ var attachFastClick = require('fastclick');
 attachFastClick(document.body);
 ```
 > 想了解更多，可以取[官方文档](https://majing.io/posts/10000007721218)找到
+
+----------
 
 其他类插件
 ----------
@@ -988,6 +1026,8 @@ $(".main").onepage_scroll({
 ```
 > 想了解更多，可以取[官方文档](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)找到
 
+----------
+
 ### [clipboard](https://clipboardjs.com/) - 仅 2KB 大小，搞定剪贴板功能,但是，Safari 不支持...
 
 > **快速入门**
@@ -1002,6 +1042,8 @@ $(".main").onepage_scroll({
 ```
 ![兼容性](https://i.imgur.com/R3wDWUz.jpg)
 > 想了解更多，可以取[官方文档](https://clipboardjs.com/)找到
+
+----------
 
 <h2 id="read">精选阅读</h2>
 
