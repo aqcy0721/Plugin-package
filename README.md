@@ -8,8 +8,8 @@
 - [插件](#plugins)
   - [功能插件](#features)
      - [弹出层](#layer)
-     - [上拉加载，下拉刷新](#features)
-     - [上传](#features)
+     - [上拉加载，下拉刷新](#Mescroll)
+     - [上传](#jQuery File Upload)
      - [轮播图](#features)
      - [表单验证](#features)
      - [日期控件](#features)
@@ -163,7 +163,7 @@ layer.open({
 
 ### 上拉加载，下拉刷新
 
-#### [Mescroll](http://www.mescroll.com/) - 精致的下拉刷新和上拉加载js框架，原生js，不依赖jquery，zepto，支持vue，一套代码多端运行
+#### [Mescroll](http://www.mescroll.com/)
 
 > **快速入门**
 ```javascript
@@ -283,7 +283,7 @@ function upCallback(page) {
 
 ### 上传
 
-#### [jQuery File Upload](http://www.jq22.com/jquery-info230) -支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
+#### [jQuery File Upload](http://www.jq22.com/jquery-info230)
 
 > **快速入门**
 ```javascript
