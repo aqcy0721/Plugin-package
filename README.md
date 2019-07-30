@@ -7,7 +7,7 @@
 ## 目录
 - [插件](#plugins)
   - [功能插件](#features)
-     - [弹出层](#layer)
+     - [弹出层](#layer - 适用于PC端)
      - [上拉加载，下拉刷新](#features)
      - [上传](#features)
      - [轮播图](#features)
