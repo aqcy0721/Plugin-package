@@ -28,11 +28,11 @@
   - [其他技术](#otherdev)
 
 
-## 功能插件
+## **功能插件**
 
-### 弹出层
+### <font color="red">弹出层</font>
 
-### [layer](http://layer.layui.com/?alone) - 适用于PC端
+#### [layer](http://layer.layui.com/?alone) - 适用于PC端
 
 > **快速入门**
 ```javascript
@@ -935,7 +935,7 @@ let scroll = new BScroll(wrapper)
 ```
 > 想了解更多，可以取[官方文档](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#%E8%B5%B7%E6%AD%A5)找到
 
-### [fastclick](https://majing.io/posts/10000007721218) - better-scroll 是一款重点解决移动端（已支持 PC）各种滚动场景需求的插件。better-scroll 是基于原生 JS 实现的，不依赖任何框架。它编译后的代码大小是 63kb，压缩后是 35kb，gzip 后仅有 9kb，是一款非常轻量的 JS lib。
+### [fastclick](https://majing.io/posts/10000007721218) - 移动设备上的浏览器默认会在用户点击屏幕大约延迟300毫秒后才会触发点击事件，这是为了检查用户是否在做双击。为了能够立即响应用户的点击事件，才有了FastClick。
 
 > **快速入门**
 ```javascript
