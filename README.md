@@ -30,7 +30,7 @@
 
 ### 弹出层
 
-#### <a href="http://layer.layui.com/?alone" target="_blank">layer</a>
+#### [layer](http://layer.layui.com/?alone){:target="_blank"}
 
 > **快速入门**
 ```javascript
