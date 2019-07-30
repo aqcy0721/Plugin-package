@@ -318,6 +318,7 @@ $(function () {
    });
 });
 ```
+![](https://i.imgur.com/5z0iR3C.jpg)
 > 想了解更多，可以取[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
 
 ----------
@@ -373,6 +374,7 @@ $("#zyupload").zyUpload({
     }
 });
 ```
+![](https://i.imgur.com/vdqyH23.jpg)
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info14213)找到
 
 ----------
@@ -519,6 +521,7 @@ $.myvali({
     errCol: "red", //设置错误提示文字的颜色，不设置默认红色
 })  
 ```
+![](https://i.imgur.com/F0XWyIV.jpg)
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info18673)找到
 
 ----------
@@ -749,6 +752,7 @@ var sortable = new Sortable(el, {
 // 基于准备好的dom，初始化echarts实例
 $("#city_1").citySelect({nodata:"none",required:false}); 
 ```
+![](https://i.imgur.com/rFux4a6.jpg)
 > 想了解更多，可以取[官方文档](http://www.jq22.com/yanshi16052)找到
 
 ----------
