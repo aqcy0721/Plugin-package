@@ -277,7 +277,7 @@ function upCallback(page) {
    });
 }		  
 ```
-> 想了解更多，可以取[官方文档](http://www.mescroll.com/api.html?v=190725)找到
+> [点击下载](http://www.chaoyong666.com/js/mescroll.zip)，想了解更多，可以去[官方文档](http://www.mescroll.com/api.html?v=190725)找到
 
 ----------
 
@@ -320,7 +320,7 @@ $(function () {
 });
 ```
 ![](https://i.imgur.com/5z0iR3C.jpg)
-> 想了解更多，可以取[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
+> [点击下载](http://www.chaoyong666.com/js/jQuery-File-Upload-master.zip)，想了解更多，可以去[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
 
 ----------
 
@@ -376,7 +376,7 @@ $("#zyupload").zyUpload({
 });
 ```
 ![](https://i.imgur.com/vdqyH23.jpg)
-> 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info14213)找到
+> [点击下载](http://www.chaoyong666.com/js/zyupload.zip)，想了解更多，可以去[官方文档](http://www.jq22.com/jquery-info14213)找到
 
 ----------
 
@@ -436,7 +436,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     },
   })    
 ```
-> 想了解更多，可以取[官方文档](https://www.swiper.com.cn/usage/index.html)找到
+> [点击下载](http://www.chaoyong666.com/js/swiper-4.5.0.zip)，想了解更多，可以去[官方文档](https://www.swiper.com.cn/usage/index.html)找到
 
 ----------
 
@@ -523,7 +523,7 @@ $.myvali({
 })  
 ```
 ![](https://i.imgur.com/F0XWyIV.jpg)
-> 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info18673)找到
+> [点击下载](http://www.chaoyong666.com/js/myvali.zip)，想了解更多，可以去[官方文档](http://www.jq22.com/jquery-info18673)找到
 
 ----------
 
@@ -555,7 +555,7 @@ jeDate("#starttime",{
 });  
 
 ```
-> 想了解更多，可以取[官方文档](http://www.jemui.com/uidoc/jedate.html)找到
+> [点击下载](http://www.chaoyong666.com/js/jedate-6.5.0.zip)，想了解更多，可以去[官方文档](http://www.jemui.com/uidoc/jedate.html)找到
 
 ----------
 
@@ -600,7 +600,7 @@ myChart.setOption(option);
 });  
 
 ```
-> 想了解更多，可以取[官方文档](https://www.echartsjs.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts)找到
+> [点击下载](http://www.chaoyong666.com/js/echarts-4.2.1.zip)，想了解更多，可以去[官方文档](https://www.echartsjs.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts)找到
 
 ----------
 
@@ -730,7 +730,7 @@ var sortable = new Sortable(el, {
 });
 
 ```
-> 想了解更多，可以取[官方文档](https://github.com/SortableJS/Sortable)找到
+> [点击下载](http://www.chaoyong666.com/js/sortablejs.zip)，想了解更多，可以去[官方文档](https://github.com/SortableJS/Sortable)找到
 
 ----------
 
@@ -754,7 +754,7 @@ var sortable = new Sortable(el, {
 $("#city_1").citySelect({nodata:"none",required:false}); 
 ```
 ![](https://i.imgur.com/rFux4a6.jpg)
-> 想了解更多，可以取[官方文档](http://www.jq22.com/yanshi16052)找到
+> [点击下载](http://www.chaoyong666.com/js/jquery.cityselect.zip)，想了解更多，可以去[官方文档](http://www.jq22.com/yanshi16052)找到
 
 ----------
 
@@ -804,7 +804,7 @@ function animate() {
 
 }
 ```
-> 想了解更多，可以取[官方文档](https://github.com/mrdoob/three.js)找到+
+> 想了解更多，可以去[官方文档](https://github.com/mrdoob/three.js)找到+
 
 ----------
 
@@ -833,7 +833,7 @@ html2canvas($("#wrap"), {
        background: "#000"
 });
 ```
-> 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
+> [点击下载html2cavas](http://www.chaoyong666.com/js/html2canvas-master.zip)，[点击下载html2cavas](http://www.chaoyong666.com/js/canvas2image-master.zip)，想了解更多，可以去[官方文档](https://github.com/niklasvh/html2canvas)找到
 
 ----------
 
@@ -854,7 +854,7 @@ $(function() {
    $("img.lazy").lazyload({effect: "fadeIn"});
 });
 ```
-> 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
+> [点击下载](http://www.chaoyong666.com/js/jquery.lazyload.zip)，想了解更多，可以去[官方文档](http://www.jq22.com/yanshi390)找到
 
 ----------
 
@@ -889,7 +889,7 @@ $(function() {
 </body>
 </html>
 ```
-> 想了解更多，可以取[官方文档](https://github.com/Vibing/adaptive)找到
+> [点击下载](http://www.chaoyong666.com/js/adaptive-master.zip)，想了解更多，可以去[官方文档](https://github.com/Vibing/adaptive)找到
 
 ----------
 
@@ -917,7 +917,7 @@ var clock = new FlipClock($('.your-clock'), {
 // ... your options here
 });
 ```
-> 想了解更多，可以取[官方文档](http://www.flipclockjs.com/)找到
+> [点击下载](http://www.chaoyong666.com/js/FlipClock-master.zip)，想了解更多，可以去[官方文档](http://www.flipclockjs.com/)找到
 
 ----------
 
@@ -951,7 +951,7 @@ showDom.addEventListener('click', function () {  // 添加监听事件
     });
 });
 ```
-> 想了解更多，可以取[官方文档](http://zhoushengfe.com/iosselect/website/index.html)找到
+> [点击下载](http://www.chaoyong666.com/js/iosselect.zip)，想了解更多，可以去[官方文档](http://zhoushengfe.com/iosselect/website/index.html)找到
 
 ----------
 
@@ -973,7 +973,7 @@ import BScroll from 'better-scroll'
 let wrapper = document.querySelector('.wrapper')
 let scroll = new BScroll(wrapper)
 ```
-> 想了解更多，可以取[官方文档](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#%E8%B5%B7%E6%AD%A5)找到
+> [点击下载](http://www.chaoyong666.com/js/better-scroll.zip)，想了解更多，可以去[官方文档](http://ustbhuangyi.github.io/better-scroll/doc/zh-hans/#%E8%B5%B7%E6%AD%A5)找到
 
 ----------
 
@@ -993,7 +993,7 @@ npm install fastclick
 var attachFastClick = require('fastclick');
 attachFastClick(document.body);
 ```
-> 想了解更多，可以取[官方文档](https://majing.io/posts/10000007721218)找到
+> [点击下载](http://www.chaoyong666.com/js/fastclick.zip)，想了解更多，可以去[官方文档](https://majing.io/posts/10000007721218)找到
 
 ----------
 
@@ -1029,7 +1029,7 @@ $(".main").onepage_scroll({
    direction: "vertical"
 });
 ```
-> 想了解更多，可以取[官方文档](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)找到
+> [点击下载](http://www.chaoyong666.com/js/onepage-scroll-master.zip)，想了解更多，可以去[官方文档](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)找到
 
 ----------
 
@@ -1046,7 +1046,7 @@ $(".main").onepage_scroll({
 </button>
 ```
 ![兼容性](https://i.imgur.com/R3wDWUz.jpg)
-> 想了解更多，可以取[官方文档](https://clipboardjs.com/)找到
+> [点击下载](http://www.chaoyong666.com/js/clipboard.zip)，想了解更多，可以去[官方文档](https://clipboardjs.com/)找到
 
 ----------
 
