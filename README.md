@@ -32,7 +32,7 @@
 
 #### [layer](http://layer.layui.com/?alone){:target="_blank"}
 
-<a href="xxx" target="_blank">xxx</a>
+[example](http://yinping4256.github.io target="_blank")
 
 > **快速入门**
 ```javascript
