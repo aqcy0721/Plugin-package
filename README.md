@@ -28,9 +28,9 @@
   - [其他技术](#otherdev)
 
 
-## **功能插件**
-
-### <font color="red">弹出层</font>
+#功能插件
+----------
+### 弹出层
 
 #### [layer](http://layer.layui.com/?alone) - 适用于PC端
 
@@ -83,7 +83,7 @@ $('#test5').on('click', function(){
 ```
 > 想了解更多，可以取[官方文档](http://layer.layui.com/)找到
 
-### [Layer For Mobile](http://layer.layui.com/mobile/) - 适用于移动端
+#### [Layer For Mobile](http://layer.layui.com/mobile/) - 适用于移动端
 
 > **快速入门**
 ```javascript
@@ -158,7 +158,7 @@ layer.open({
 
 ### 上拉加载，下拉刷新
 
-### [Mescroll](http://www.mescroll.com/) - 精致的下拉刷新和上拉加载js框架，原生js，不依赖jquery，zepto，支持vue，一套代码多端运行
+#### [Mescroll](http://www.mescroll.com/) - 精致的下拉刷新和上拉加载js框架，原生js，不依赖jquery，zepto，支持vue，一套代码多端运行
 
 > **快速入门**
 ```javascript
@@ -276,7 +276,7 @@ function upCallback(page) {
 
 ### 上传
 
-### [jQuery File Upload](http://www.jq22.com/jquery-info230) -支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
+#### [jQuery File Upload](http://www.jq22.com/jquery-info230) -支持多文件上传、取消、删除，上传前缩略图预览、列表显示图片大小，支持上传进度条显示；支持各种动态语言开发的服务器端。
 
 > **快速入门**
 ```javascript
@@ -314,7 +314,7 @@ $(function () {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/blueimp/jQuery-File-Upload)找到
 
-### [zyupload](http://www.jq22.com/jquery-info14213) - PHP支持拖拽和裁剪的一款上传插件：zyupload。在js里面可以自定义高度和宽度，类型，远程上传地址等。
+#### [zyupload](http://www.jq22.com/jquery-info14213) - PHP支持拖拽和裁剪的一款上传插件：zyupload。在js里面可以自定义高度和宽度，类型，远程上传地址等。
 
 > **快速入门**
 ```javascript
@@ -367,9 +367,9 @@ $("#zyupload").zyUpload({
 ```
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info14213)找到
 
-## 轮播图
+### 轮播图
 
-### [Swiper](https://www.swiper.com.cn/) - 纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端，版本：4.0
+#### [Swiper](https://www.swiper.com.cn/) - 纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端，版本：4.0
 
 > **快速入门**
 ```html
@@ -425,9 +425,9 @@ var mySwiper = new Swiper ('.swiper-container', {
 ```
 > 想了解更多，可以取[官方文档](https://www.swiper.com.cn/usage/index.html)找到
 
-## 表单验证
+### 表单验证
 
-### [myvali](http://www.jq22.com/jquery-info18673) - 基于jquery封装的表单验证插件
+#### [myvali](http://www.jq22.com/jquery-info18673) - 基于jquery封装的表单验证插件
 
 > **快速入门**
 
@@ -509,9 +509,9 @@ $.myvali({
 ```
 > 想了解更多，可以取[官方文档](http://www.jq22.com/jquery-info18673)找到
 
-## 日期控件
+### 日期控件
 
-### [jedate](http://www.jemui.com/uidoc/jedate.html) - 基于jquery封装的表单验证插件
+#### [jedate](http://www.jemui.com/uidoc/jedate.html) - 基于jquery封装的表单验证插件
 
 > **快速入门**
 
@@ -539,9 +539,9 @@ jeDate("#starttime",{
 ```
 > 想了解更多，可以取[官方文档](http://www.jemui.com/uidoc/jedate.html)找到
 
-## 图表类插件
+### 图表类插件
 
-### [ECharts](http://echarts.baidu.com/index.html) - 支持的图表展示非常之多
+#### [ECharts](http://echarts.baidu.com/index.html) - 支持的图表展示非常之多
 
 > **快速入门**
 
@@ -582,9 +582,9 @@ myChart.setOption(option);
 ```
 > 想了解更多，可以取[官方文档](https://www.echartsjs.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts)找到
 
-## 拖拽类插件
+### 拖拽类插件
 
-### [Sortable](https://github.com/RubaXa/Sortable) - 拖拽神器
+#### [Sortable](https://github.com/RubaXa/Sortable) - 拖拽神器
 
 > **快速入门**
 
@@ -710,9 +710,9 @@ var sortable = new Sortable(el, {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/SortableJS/Sortable)找到
 
-## 省市联动
+### 省市联动
 
-### [jquery.cityselect](http://www.jq22.com/yanshi16052) - jQuery+JSON的省市三级、二级联动插件
+#### [jquery.cityselect](http://www.jq22.com/yanshi16052) - jQuery+JSON的省市三级、二级联动插件
 
 > **快速入门**
 
@@ -731,9 +731,9 @@ $("#city_1").citySelect({nodata:"none",required:false});
 ```
 > 想了解更多，可以取[官方文档](http://www.jq22.com/yanshi16052)找到
 
-## 3D库
+### 3D库
 
-### [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 库
+#### [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 库
 
 > **快速入门**
 
@@ -779,9 +779,9 @@ function animate() {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/mrdoob/three.js)找到
 
-## HTML生成图片
+### HTML生成图片
 
-### [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 使用场景就是“动态生成的HTML可以长按保存为图片”。
+#### [html2canvas](https://github.com/niklasvh/html2canvas)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 使用场景就是“动态生成的HTML可以长按保存为图片”。
 
 > **快速入门**
 
@@ -806,9 +806,9 @@ html2canvas($("#wrap"), {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
 
-## 懒加载
+### 懒加载
 
-### [jquery.lazyload](http://www.jq22.com/yanshi390) - 使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
+#### [jquery.lazyload](http://www.jq22.com/yanshi390) - 使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
 
 > **快速入门**
 
@@ -825,9 +825,9 @@ $(function() {
 ```
 > 想了解更多，可以取[官方文档](https://github.com/niklasvh/html2canvas)找到
 
-## 移动端插件
+# 移动端插件
 
-### [adaptive.j](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
+### [adaptive.js](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
 
 > **快速入门**
 ```html
@@ -953,7 +953,7 @@ attachFastClick(document.body);
 ```
 > 想了解更多，可以取[官方文档](https://majing.io/posts/10000007721218)找到
 
-## 其他类插件
+# 其他类插件
 
 ### [onepage-scroll](https://github.com/peachananr/onepage-scroll) - 依赖 jQuery 的单页滚动库，和 [fullPage](http://alvarotrigo.com/fullPage/) 类似
 
