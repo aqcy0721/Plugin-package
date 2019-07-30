@@ -30,7 +30,7 @@
 
 功能插件
 ----------
-### 弹出层
+<table><tr><td bgcolor=#FF00FF>背景色的设置是按照十六进制颜色值：#7FFFD4</td></tr></table>
 
 #### [layer](http://layer.layui.com/?alone) - 适用于PC端
 
