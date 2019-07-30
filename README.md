@@ -10,15 +10,15 @@
      - [弹出层](#layer)
      - [上拉加载，下拉刷新](#Mescroll)
      - [上传](#jQuery-File-Upload)
-     - [轮播图](#features)
-     - [表单验证](#features)
-     - [日期控件](#features)
-     - [图表类插件](#features)
-     - [拖拽类插件](#features)
-     - [省市联动](#features)
-     - [3D库](#features)
-     - [HTML生成图片](#features)
-     - [懒加载](#features)
+     - [轮播图](#Swiper)
+     - [表单验证](#myvali)
+     - [日期控件](#jedate)
+     - [图表类插件](#ECharts)
+     - [拖拽类插件](#Sortable)
+     - [省市联动](#jquery-cityselect)
+     - [3D库](#threejs)
+     - [HTML生成图片](#html2canvas)
+     - [懒加载](#lazyload)
   - [图片类插件](#images)
   - [移动端插件](#mobile)
   - [其他类插件](#other)
@@ -28,7 +28,7 @@
   - [其他技术](#otherdev)
 
 
-功能插件
+<h1 id="features">功能插件</h1>
 ----------
 ### 弹出层
 
@@ -382,7 +382,7 @@ $("#zyupload").zyUpload({
 
 ### 轮播图
 
-#### [Swiper](https://www.swiper.com.cn/) - 纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端，版本：4.0
+#### [Swiper](https://www.swiper.com.cn/)
 
 > **快速入门**
 ```html
@@ -442,7 +442,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 
 ### 表单验证
 
-#### [myvali](http://www.jq22.com/jquery-info18673) - 基于jquery封装的表单验证插件
+#### [myvali](http://www.jq22.com/jquery-info18673)
 
 > **快速入门**
 
@@ -529,7 +529,7 @@ $.myvali({
 
 ### 日期控件
 
-#### [jedate](http://www.jemui.com/uidoc/jedate.html) - 基于jquery封装的表单验证插件
+#### [jedate](http://www.jemui.com/uidoc/jedate.html)
 
 > **快速入门**
 
@@ -561,7 +561,7 @@ jeDate("#starttime",{
 
 ### 图表类插件
 
-#### [ECharts](http://echarts.baidu.com/index.html) - 支持的图表展示非常之多
+#### [ECharts](http://echarts.baidu.com/index.html)
 
 > **快速入门**
 
@@ -606,7 +606,7 @@ myChart.setOption(option);
 
 ### 拖拽类插件
 
-#### [Sortable](https://github.com/RubaXa/Sortable) - 拖拽神器
+#### [Sortable](https://github.com/RubaXa/Sortable)
 
 > **快速入门**
 
@@ -736,7 +736,7 @@ var sortable = new Sortable(el, {
 
 ### 省市联动
 
-#### [jquery.cityselect](http://www.jq22.com/yanshi16052) - jQuery+JSON的省市三级、二级联动插件
+#### [jquery-cityselect](http://www.jq22.com/yanshi16052)
 
 > **快速入门**
 
@@ -760,7 +760,7 @@ $("#city_1").citySelect({nodata:"none",required:false});
 
 ### 3D库
 
-#### [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 库
+#### [threejs](https://github.com/mrdoob/three.js)
 
 > **快速入门**
 
@@ -810,7 +810,7 @@ function animate() {
 
 ### HTML生成图片
 
-#### [html2canvas](https://github.com/niklasvh/html2+)+[canvas2Image](https://github.com/randreucetti/canvas2image) - 使用场景就是“动态生成的HTML可以长按保存为图片”。
+#### [html2canvas](https://github.com/niklasvh/html2+)+[canvas2Image](https://github.com/randreucetti/canvas2image) 
 
 > **快速入门**
 
@@ -839,7 +839,7 @@ html2canvas($("#wrap"), {
 
 ### 懒加载
 
-#### [jquery.lazyload](http://www.jq22.com/yanshi390) - 使用延迟加载在可提高网页下载速度。在某些情况下，它也能帮助减轻服务器负载。
+#### [lazyload](http://www.jq22.com/yanshi390)
 
 > **快速入门**
 
@@ -858,7 +858,7 @@ $(function() {
 
 ----------
 
-移动端插件
+<h1 id="mobile">移动端插件</h1>
 ----------
 
 ### [adaptive.js](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
@@ -997,7 +997,7 @@ attachFastClick(document.body);
 
 ----------
 
-其他类插件
+<h1 id="other">其他类插件</h1>
 ----------
 
 ### [onepage-scroll](https://github.com/peachananr/onepage-scroll) - 依赖 jQuery 的单页滚动库，和 [fullPage](http://alvarotrigo.com/fullPage/) 类似
