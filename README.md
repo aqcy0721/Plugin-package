@@ -30,9 +30,6 @@
 
 <h2 id="features">功能插件</h2>
 
-----------
-
-
 ### 弹出层
 
 #### [layer](http://layer.layui.com/?alone)
@@ -861,8 +858,7 @@ $(function() {
 
 ----------
 
-<h1 id="mobile">移动端插件</h1>
-----------
+<h2 id="mobile">移动端插件</h2>
 
 ### [adaptive.js](https://github.com/Vibing/adaptive) - 借鉴手淘方案，adaptive.js将整个页面宽度平均分成10份，以clineWidth / 10的结果作为html标签的font-size值。 布局中使用rem作为单位。
 
@@ -1000,8 +996,7 @@ attachFastClick(document.body);
 
 ----------
 
-<h1 id="other">其他类插件</h1>
-----------
+<h2 id="other">其他类插件</h2>
 
 ### [onepage-scroll](https://github.com/peachananr/onepage-scroll) - 依赖 jQuery 的单页滚动库，和 [fullPage](http://alvarotrigo.com/fullPage/) 类似
 
