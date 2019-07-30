@@ -9,7 +9,7 @@
   - [功能插件](#features)
      - [弹出层](#layer)
      - [上拉加载，下拉刷新](#Mescroll)
-     - [上传](#jQuery File Upload)
+     - [上传](#jQuery-File-Upload)
      - [轮播图](#features)
      - [表单验证](#features)
      - [日期控件](#features)
@@ -283,7 +283,7 @@ function upCallback(page) {
 
 ### 上传
 
-#### [jQuery File Upload](http://www.jq22.com/jquery-info230)
+#### [jQuery-File-Upload](http://www.jq22.com/jquery-info230)
 
 > **快速入门**
 ```javascript
