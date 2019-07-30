@@ -32,6 +32,8 @@
 
 #### [layer](http://layer.layui.com/?alone)
 
+#### <a href="http://layer.layui.com/?alone">layer</a>
+
 > **快速入门**
 ```javascript
 //获得 layer 文件包后，解压并将 layer 整个文件夹（不要拆分结构） 存放到你项目的任意目录，使用时，只需引入 layer.js 即可。 
