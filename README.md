@@ -81,7 +81,8 @@ $('#test5').on('click', function(){
    layer.tips('Hello tips!', '#test5');
 });
 ```
-> 想了解更多，可以取[官方文档](http://layer.layui.com/)找到
+
+> [点击下载](http://www.chaoyong666.com/js/layer_pc.zip)，想了解更多，可以去[官方文档](http://layer.layui.com/)找到
 
 ----------
 
@@ -156,7 +157,7 @@ layer.open({
    ,content: '加载中'
 });
 ```
-> 想了解更多，可以取[官方文档](http://layer.layui.com/mobile/api.html)找到
+> [点击下载](http://www.chaoyong666.com/js/layer_mobile.zip)，想了解更多，可以去[官方文档](http://layer.layui.com/mobile/api.html)找到
 
 ----------
 
@@ -920,7 +921,7 @@ var clock = new FlipClock($('.your-clock'), {
 
 ----------
 
-### [iosSelect](http://www.flipclockjs.com/) - 仿IOS端选择器插件，支持日期、地区等
+### [iosSelect](http://zhoushengfe.com/iosselect/website/index.html) - 仿IOS端选择器插件，支持日期、地区等
 
 > **快速入门**
 ```javascript
